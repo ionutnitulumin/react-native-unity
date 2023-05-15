@@ -1,3 +1,4 @@
 *.pbxproj -text
 # specific for windows script files
 *.bat text eol=crlf
+ios/UnityFramework.framework/UnityFramework filter=lfs diff=lfs merge=lfs -text

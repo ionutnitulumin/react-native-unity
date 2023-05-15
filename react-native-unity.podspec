@@ -18,4 +18,6 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(BUILD_ROOT)/** $(CONFIGURATION_BUILD_DIR)/../**' }
 
   s.dependency "React-Core"
+
+  s.vendored_frameworks = 'ios/UnityFramework.framework'
 end
